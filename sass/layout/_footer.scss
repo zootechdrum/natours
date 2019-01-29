@@ -17,19 +17,18 @@
     &__navigation {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
-        // text-align:center;
         display:inline-block;
-        // width:90%;
         }
     
     &__list {
-        list-style:none;
+        padding-inline-start: 0px;
         display:inline-block;
+
     }
 
     &__item {
         display: inline-block;
-
+        padding-top:2px;
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
@@ -51,16 +50,16 @@
         &:active {
             color: $color-primary;
             box-shadow: 0 1rem 2rem rgba($color-black, .4);
-            transform: rotate(5deg) sclae(1.4);
+            transform: rotate(5deg) scale(1.4);
         }
 
 
     }
     &__copyright{
         border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        width: 80%;
-        float:right;           
+        padding:2rem;
+        width: 80%; 
+        float:right;        
     }
 
 }
